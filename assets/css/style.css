@@ -1,0 +1,96 @@
+:root { 
+    --color-red:#B00000;
+    --color-grey: #808080;
+    --color-black:#2D2D2B; 
+    --color-white: #fff;
+    --color-blue: #F7FAFE;
+    --color-more: #E6E6E6;
+  } 
+   
+  *, 
+  *::before, 
+  *::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    outline: 0; 
+    border: 0; 
+  } 
+   
+  @font-face { 
+    font-family: "pop"; 
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype'); 
+    src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+    src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');   
+  } 
+
+  @font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Bold.ttf');
+    src: url('../fonts/Raleway-SemiBold.ttf');
+    src: url('../fonts/Raleway-Regular.ttf');
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+   
+  html { 
+    box-sizing: border-box; 
+    /*10px/16px = 62.5% -> 1rem = 10px */ 
+    font-size: 62.5%;
+    
+  } 
+   
+  body { 
+    font-family: 'Raleway'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 1.6rem; 
+    line-height: 2.4rem;  
+    color: var(--color-black);  
+  } 
+
+  .bodytext{
+    font-family: "pop";
+  }
+    
+   
+  img { 
+    width: 100%; 
+    height: 100%; 
+    display: block; 
+    object-fit: cover; 
+  } 
+   
+  h1 { 
+    font-size: 7.2rem; 
+    line-height: 8.6rem; 
+    font-family: 'pop';
+  }  
+   
+  h2 { 
+    font-size: 6.4rem; 
+    line-height: 5.2rem; 
+  } 
+
+  h3{
+    font-size: 4.8rem;
+    line-height: 5.2rem;
+    font-family: 'pop';
+  }
+
+  h4 { 
+    font-size: 2.4rem; 
+    line-height: 3.2rem; 
+    font-family: 'pop';
+  } 
+   
+  ul { 
+    list-style-type: disc;
+    list-style-image: url('path/to/tick-icon.png');
+  } 
+   
+  a { 
+    text-decoration: none; 
+  } 
+
+

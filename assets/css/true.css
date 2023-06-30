@@ -1,0 +1,175 @@
+.container{
+    max-width: 138rem;
+    margin: 0 auto;
+}
+
+.logo .logo__all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.1rem;
+}
+
+.logo .logo__all .logo__left{
+    display: flex;
+    gap: 6.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.logo .logo__all .logo__left .img{
+    max-width: 90.1rem;
+    height: 6rem;
+}
+
+.logo .logo__all .logo__left .img img{
+    max-width: 100%;
+}
+
+.logo .logo__all .logo__left .bodytext{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo .logo__all .logo__center{
+    display: flex;
+    gap: 3.3rem;
+}
+
+.logo .logo__all .logo__center .bodytext{
+    font-weight: 600;
+}
+
+.logo .logo__all .logo__right{
+    display: flex;
+    gap: 6.3rem;
+    font-weight: 600;
+}
+
+.logo .logo__all .logo__right .text__all{
+    display: flex;
+}
+
+.logo .logo__all .logo__right .body{
+    font-family: 'pop';
+}
+
+
+.true .true__all{
+    display: flex;
+    margin-top: 12.8rem;
+    gap: 9.3rem;
+}
+
+.true .true__all .true__left .h2{
+    width: 74rem;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.true .true__all .true__left .bodytext{
+    margin-top: 4rem;
+    max-width: 60rem;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+.true .true__all .true__right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8.1rem;
+    margin-top: 4rem;
+}
+
+
+.true .true__all .true__right img{
+    width: 140.714px;
+    height: 30px;
+}
+
+
+.grid .grid__all{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 15rem;
+}
+
+.grid .grid__all .grid__box img{
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grid .grid__all .grid__box .h2 h2{
+    font-size: 2rem;
+    font-family: "pop";
+    text-align: center;
+
+}
+
+.grid .grid__all .grid__box .bodytext{
+    width: 252px;
+    font-size: 10px;
+    font-family: "pop";
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    height: 5rem;
+}
+
+.end{
+    background-color: var(--color-red);
+    height: 536px;
+}
+
+.end .end__all{
+    display: flex;
+    margin-top: 18rem;
+    
+}
+
+.end .end__all .box .img{
+    width: 120px;
+    padding-top: 6.4rem;
+}
+
+.end .end__all .box .bodytext{
+    width: 29.6rem;
+    color: var(--color-more);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    margin-top: 1.6rem;
+    font-family: sans-serif;
+}
+
+.end .end__all .box .bodytextt{
+    width: 40rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: var(--color-white);
+    margin-top: 10.4rem;
+}
+
+.end .end__all .box ul{
+    width: 30rem;
+    list-style: none;
+    margin-top: 10rem;
+    font-family: sans-serif;
+    color: var(--color-white);
+}
+
+.end .end__all .box ul .big{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.end .end__all .box ul li{
+    margin-top: 4rem;
+}
+
